@@ -1,15 +1,5 @@
-import asyncio
-from random import randint
+from aiogram import Bot, Dispatcher
 import os
-import json
-import random
-from aiogram.enums import ContentType
-from aiogram import Bot, Dispatcher, F
-from aiogram.filters import CommandStart, Command, BaseFilter
-from aiogram.types import Message
-from aiogram.utils.keyboard import ReplyKeyboardMarkup, KeyboardButton
-from db_interface import *
-
 
 # PHASALO ON
 try:
